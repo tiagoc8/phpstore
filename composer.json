@@ -1,0 +1,27 @@
+{
+    "name": "asus/phpstore",
+    "description": "Loja Online em PHP",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Asus\\Phpstore\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tiago",
+            "email": "tiagoc_432@hotmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "core\\" : "core/"
+        },
+        "files":[
+            "config.php"
+        ]
+    }
+}
